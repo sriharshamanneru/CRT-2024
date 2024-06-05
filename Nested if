@@ -8,6 +8,10 @@ int main()
         {
          printf("a is greater");
         }
+        else
+        {
+         printf("c is greater");
+        }
     }
     else if(b>c)
     {
