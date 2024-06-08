@@ -1,0 +1,16 @@
+#include <stdio.h>
+    void show()
+    {
+        printf("sweety\n");
+    }
+    void line()
+    {
+        printf("---\n");
+    }
+    int main()
+    {
+        line();
+        show();
+        show();
+     return 0;
+    }
