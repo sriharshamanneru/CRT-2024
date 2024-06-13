@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char str1[10],str2[10],str3[10],str4[20];
+    scanf("%s",&str1);
+    scanf("%s",&str2);
+    scanf("%s",&str3);
+    int i,j,k;
+    for(i=0;str1[i]!='\0';i++)
+    {
+        str4[i]=str1[i];
+    }
+    for(j=0;str2[j]!='\0';j++)
+    {
+        str4[i+j]=str2[j];
+    }
+    for(k=0;str3[i]!='\0';k++)
+    {
+        str4[i+j+k]=str3[k];
+    }
+    str4[i+j+k]='\0';
+    // Write C code here
+    printf("%s",str4);
+    return 0;
+}
